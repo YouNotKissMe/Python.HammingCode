@@ -13,13 +13,14 @@ def PobitovoeYmnogenie(a1, b1, c1, c2):
 
 
 def Skoda(abc, massivchik):
-    if massivchik[abc - 1] == 1:
+    '''if massivchik[abc - 1] == 1:
 
         massivchik[abc - 1] = 0
 
     else:
 
-        massivchik[abc - 1] = 1
+        massivchik[abc - 1] = 1'''
+    massivchik[abc - 1] = 0 if massivchik[abc - 1] == 1 else 1
 
     return massivchik
 
